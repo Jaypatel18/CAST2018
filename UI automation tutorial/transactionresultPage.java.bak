@@ -1,0 +1,16 @@
+package pages;
+
+public class transcationResultpage extends page
+{
+	private By table = By.id("transactionTable");
+	
+	public TransactionResultsPage(WebDriver driver)
+	{
+	super (driver);
+	}
+	
+	public int getNumberOfTranscations()
+	{
+		
+	}
+}

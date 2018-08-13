@@ -1,0 +1,6 @@
+Xpath tutorials:
+
+//input[@type="submit" and @value='Log In']
+//input[@type="submit" and @value='Log In']
+
+//button[@ng-click="criteria.searchTypes= 'ID'"]

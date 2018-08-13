@@ -1,0 +1,29 @@
+package transaction;
+
+public class transcation
+{
+	String date;
+	String description;
+	String debit;
+	String credit;
+}
+
+public void setDate(String date)
+{
+	this.date = date;
+}
+
+public void setDescription(String description)
+{
+	this.dsescription = dsescription;
+}
+
+public void setDebit(String debit)
+{
+	this.debit = debit;
+}
+
+public void setCredit(String credit)
+{
+	this.credit = credit;
+}

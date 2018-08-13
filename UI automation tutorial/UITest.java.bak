@@ -1,0 +1,16 @@
+package base;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import utils.Links;
+
+public class UITest{
+	priate statis WebDriver driver;
+	
+	public static void launchapplication(){
+		System.setproperty("webdriver.chrome.driver", "resoruces/chromedriver");
+		driver= new Chromedriver();
+		driver.get(Links.HOME);
+		login();
+	}
+}
